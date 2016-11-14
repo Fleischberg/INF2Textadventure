@@ -44,7 +44,7 @@ public class Textadventure extends Application {
         beschriftungen[0][1] = "Du stehst auf.";
         naechsterAbschnitt[0][1] = 2;
 
-        // 1: Umsehen nach erfwachen
+        // 1: Umsehen nach erwachen
         abschnitte[1] = "Ich glaub, du stehst im Wald... nein, vielmehr liegst du im Wald. Muss eine üble Party gewesen sein.";
         beschriftungen[1][0] = "Du stehst auf.";
         naechsterAbschnitt[1][0] = 2;
