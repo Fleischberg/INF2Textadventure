@@ -52,8 +52,8 @@ public class Textadventure extends Application {
         beschriftungen[1][1] = "Du bleibst im Graben liegen";
         naechsterAbschnitt[1][1] = 0;
 
-        // 2: Aufstehen
-        abschnitte[2] = "Schwankend kommst du auf die Füße. Der nächste Wald von deiner WG aus liegt in nördlicher Richtung. Wie war das doch noch?";
+        // 2: Folgen
+        abschnitte[2] = "Geduckt lauft ihr durch matschige Gräben, veplastert von Toten oder verwundete, nach ihrer Mutter rufenden Soldaten";
         beschriftungen[2][0] = "An Bäumen wächst das Moos auf der Südseite, denn Moos wächst im Sonnenlicht.";
         naechsterAbschnitt[2][0] = 3;
         beschriftungen[2][1] = "Quatsch, es ist genau umgekehrt.";
@@ -95,7 +95,7 @@ public class Textadventure extends Application {
         naechsterAbschnitt[7][1] = 2;
 
         // 8: Game Over
-        abschnitte[8] = "Du hast dich hoffnungslos verirrt.";
+        abschnitte[8] = "Kugelb durchbohren deinen Körper und Du fällst zu Boden.";
         beschriftungen[8][0] = "Nochmal von vorne.";
         naechsterAbschnitt[8][0] = 0;
         beschriftungen[8][1] = "Nochmal von vorne.";
