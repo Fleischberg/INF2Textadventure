@@ -56,36 +56,36 @@ public class Textadventure extends Application {
         abschnitte[2] = "Geduckt lauft ihr durch matschige Gräben, veplastert von Toten oder verwundete, nach ihrer Mutter rufenden Soldaten, als plötzlich über Funkd er Befehl zum Rückzug ertönt.";
         beschriftungen[2][0] = "Anweisungen Folge leisten.";
         naechsterAbschnitt[2][0] = 3;
-        beschriftungen[2][1] = "Quatsch, es ist genau umgekehrt.";
+        beschriftungen[2][1] = "In den Wald süd-östlich deiner aktuellen Position fliehen.";
         naechsterAbschnitt[2][1] = 4;
 
         // 3: Rückzug
-        abschnitte[3] = "So soll es sein... Du schwankst durch einen unbekannten Wald in eine Richtung, die du für Süden hältst.";
-        beschriftungen[3][0] = "Du bleibst bei deiner Entscheidung und gehst immer weiter in die Richtung.";
+        abschnitte[3] = "Überall um Dich herum rennen Soldaten entgegen der Front, als Du plötzlich das Pfeifen von heranfliegenden Mörsergranaten hörst.";
+        beschriftungen[3][0] = "Du verstekcst Dich unter dem Wrack eines leichten Panzers.";
         naechsterAbschnitt[3][0] = 5;
-        beschriftungen[3][1] = "Du bist dir nicht sicher und drehst nochmal um.";
+        beschriftungen[3][1] = "Du läufst weiter.";
         naechsterAbschnitt[3][1] = 6;
 
-        // 4: Nach Süden
+        // 4: In den Wald Süd-Östlich
         abschnitte[4] = "So soll es sein... Du schwankst durch einen unbekannten Wald in eine Richtung, die du für Süden hältst.";
         beschriftungen[4][0] = "Du bleibst bei deiner Entscheidung und gehst immer weiter in die Richtung.";
         naechsterAbschnitt[4][0] = 9;
         beschriftungen[4][1] = "Du bist dir nicht sicher und drehst nochmal um.";
         naechsterAbschnitt[4][1] = 5;
 
-        // 5: Weiter nach Norden
-        abschnitte[5] = "Und du gehst ... und gehst ... und gehst...";
+        // 5: Unter Wrack des Panzers
+        abschnitte[5] = "Überall um Dich herum schlagen Mörsergranaten ein und Du hörst die Schreie deiner Kameraden. ";
         beschriftungen[5][0] = "und drehst dann irgendwann um, weils so weit doch nicht sein kann.";
         naechsterAbschnitt[5][0] = 6;
         beschriftungen[5][1] = "und gehst immer weiter.";
         naechsterAbschnitt[5][1] = 8;
 
-        // 6: Doch nach Süden
-        abschnitte[6] = "Du kommst an der Stelle vorbei, an der du aufgewacht bist.";
-        beschriftungen[6][0] = "Weiter geht's.";
-        naechsterAbschnitt[6][0] = 9;
-        beschriftungen[6][1] = "Nein, doch lieber umdrehen.";
-        naechsterAbschnitt[6][1] = 5;
+        // 6: Weiterlaufen. Tod durch Mörser.
+        abschnitte[6] = "Du läufst um dein Leben. Deine Lunge brennt, dein Herz rast und alles um Dich herum scheint in Zeitlupe zu passieren. Als die erste Mörsergranate nur wenige Meter von Dir ein schlägt und einen Kameraden in Stücke reißt. Plötzlich hörst Du weitere Mörsergranaten, du schaust nach oben und siehst sie direkt auf Dich zu fliegen.";
+        beschriftungen[6][0] = "Nochmal von vorne.";
+        naechsterAbschnitt[6][0] = 0;
+        beschriftungen[6][1] = "Nochmal von vorne.";
+        naechsterAbschnitt[6][1] = 0;
 
         //
         abschnitte[7] = "Testeintrag...";
@@ -95,7 +95,7 @@ public class Textadventure extends Application {
         naechsterAbschnitt[7][1] = 2;
 
         // 8: Game Over
-        abschnitte[8] = "Kugelb durchbohren deinen Körper und Du fällst zu Boden.";
+        abschnitte[8] = "Kugeln durchbohren deinen Körper und Du fällst zu Boden.";
         beschriftungen[8][0] = "Nochmal von vorne.";
         naechsterAbschnitt[8][0] = 0;
         beschriftungen[8][1] = "Nochmal von vorne.";
