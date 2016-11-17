@@ -67,11 +67,12 @@ public class Textadventure extends Application {
         naechsterAbschnitt[3][1] = 6;
 
         // 4: In den Wald Süd-Östlich
-        abschnitte[4] = "Du läufst in Richtung des Waldes";
-        beschriftungen[4][0] = "Du bleibst bei deiner Entscheidung und gehst immer weiter in die Richtung.";
-        naechsterAbschnitt[4][0] = 9;
-        beschriftungen[4][1] = "Du bist dir nicht sicher und drehst nochmal um.";
-        naechsterAbschnitt[4][1] = 5;
+        abschnitte[4] = "Du läufst in Richtung des Waldes. In der Ferne vernimmst Du vereinzelnt Explosionen. Plötzlich hörst Du Geräusche vor Dir. Du erblickst einen Verbündeten. Nein zwei. Nein Drei! Nein Vier! Die dritte Division steht vor Dir! Du bist gerettet";
+        beschriftungen[4][0] = "Nochmal von vorne.";
+        naechsterAbschnitt[4][0] = 0;
+        beschriftungen[4][1] = "Nochmal von vorne.";
+        naechsterAbschnitt[4][1] = 0;
+
 
         // 5: Unter Wrack des Panzers
         abschnitte[5] = "Überall um Dich herum schlagen Mörsergranaten ein und Du hörst die Schreie deiner Kameraden. Nach einiger Zeit verstummt auch der letzte Hilferuf und der Geruch von verbranntem Fleisch und Exkrementen macht sich breit. Plötzlich fängt der Boden an zu vibireren. In der Ferne hörst Du Explosionen. Feindliche Panzer rollen an. ";
