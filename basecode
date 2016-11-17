@@ -46,20 +46,20 @@ public class Textadventure extends Application {
         naechsterAbschnitt[0][1] = 8;
 
         // 1: In Deckung gehen
-        abschnitte[1] = "Du wirfst Dich in den Dreck. Das Zischen von Kugeln, die über deinen Kopf hinweg rauschen, bringen dein Herz zum Beben. Ein Kamerad vordert Sich auf ihm zu folgen. ";
+        abschnitte[1] = "Du wirfst Dich in den Dreck. Das Zischen von Kugeln, die über deinen Kopf hinweg rauschen, bringt dein Herz zum Beben. Ein Kamerad vordert Sich auf ihm zu folgen. ";
         beschriftungen[1][0] = "Du folgst deinem Kameraden.";
         naechsterAbschnitt[1][0] = 2;
         beschriftungen[1][1] = "Du bleibst im Graben liegen";
         naechsterAbschnitt[1][1] = 0;
 
         // 2: Folgen
-        abschnitte[2] = "Geduckt lauft ihr durch matschige Gräben, veplastert von Toten oder verwundete, nach ihrer Mutter rufenden Soldaten";
-        beschriftungen[2][0] = "An Bäumen wächst das Moos auf der Südseite, denn Moos wächst im Sonnenlicht.";
+        abschnitte[2] = "Geduckt lauft ihr durch matschige Gräben, veplastert von Toten oder verwundete, nach ihrer Mutter rufenden Soldaten, als plötzlich über Funkd er Befehl zum Rückzug ertönt.";
+        beschriftungen[2][0] = "Anweisungen Folge leisten.";
         naechsterAbschnitt[2][0] = 3;
         beschriftungen[2][1] = "Quatsch, es ist genau umgekehrt.";
         naechsterAbschnitt[2][1] = 4;
 
-        // 3: Nach Norden
+        // 3: Rückzug
         abschnitte[3] = "So soll es sein... Du schwankst durch einen unbekannten Wald in eine Richtung, die du für Süden hältst.";
         beschriftungen[3][0] = "Du bleibst bei deiner Entscheidung und gehst immer weiter in die Richtung.";
         naechsterAbschnitt[3][0] = 5;
