@@ -61,24 +61,24 @@ public class Textadventure extends Application {
 
         // 3: Rückzug
         abschnitte[3] = "Überall um Dich herum rennen Soldaten entgegen der Front, als Du plötzlich das Pfeifen von heranfliegenden Mörsergranaten hörst.";
-        beschriftungen[3][0] = "Du verstekcst Dich unter dem Wrack eines leichten Panzers.";
+        beschriftungen[3][0] = "Du versteckst Dich unter dem Wrack eines leichten Panzers.";
         naechsterAbschnitt[3][0] = 5;
         beschriftungen[3][1] = "Du läufst weiter.";
         naechsterAbschnitt[3][1] = 6;
 
         // 4: In den Wald Süd-Östlich
-        abschnitte[4] = "So soll es sein... Du schwankst durch einen unbekannten Wald in eine Richtung, die du für Süden hältst.";
+        abschnitte[4] = "Du läufst in Richtung des Waldes";
         beschriftungen[4][0] = "Du bleibst bei deiner Entscheidung und gehst immer weiter in die Richtung.";
         naechsterAbschnitt[4][0] = 9;
         beschriftungen[4][1] = "Du bist dir nicht sicher und drehst nochmal um.";
         naechsterAbschnitt[4][1] = 5;
 
         // 5: Unter Wrack des Panzers
-        abschnitte[5] = "Überall um Dich herum schlagen Mörsergranaten ein und Du hörst die Schreie deiner Kameraden. ";
-        beschriftungen[5][0] = "und drehst dann irgendwann um, weils so weit doch nicht sein kann.";
-        naechsterAbschnitt[5][0] = 6;
-        beschriftungen[5][1] = "und gehst immer weiter.";
-        naechsterAbschnitt[5][1] = 8;
+        abschnitte[5] = "Überall um Dich herum schlagen Mörsergranaten ein und Du hörst die Schreie deiner Kameraden. Nach einiger Zeit verstummt auch der letzte Hilferuf und der Geruch von verbranntem Fleisch und Exkrementen macht sich breit. Plötzlich fängt der Boden an zu vibireren. In der Ferne hörst Du Explosionen. Feindliche Panzer rollen an. ";
+        beschriftungen[5][0] = "Du bleibst unter dem Wrack liegen";
+        naechsterAbschnitt[5][0] = 7;
+        beschriftungen[5][1] = "Du kriechst raus. ";
+        naechsterAbschnitt[5][1] = 9;
 
         // 6: Weiterlaufen. Tod durch Mörser.
         abschnitte[6] = "Du läufst um dein Leben. Deine Lunge brennt, dein Herz rast und alles um Dich herum scheint in Zeitlupe zu passieren. Als die erste Mörsergranate nur wenige Meter von Dir ein schlägt und einen Kameraden in Stücke reißt. Plötzlich hörst Du weitere Mörsergranaten, du schaust nach oben und siehst sie direkt auf Dich zu fliegen.";
@@ -87,8 +87,8 @@ public class Textadventure extends Application {
         beschriftungen[6][1] = "Nochmal von vorne.";
         naechsterAbschnitt[6][1] = 0;
 
-        //
-        abschnitte[7] = "Testeintrag...";
+        // 7: Unter Wrack liegen bleiben. Tod durch Benzin.
+        abschnitte[7] = "Du bemerkst eine Flüssigkeit die auf deine Schultern tropft. BENZIN! Plötzlich zischt es und das Wrack explodiert in einem Feuerball.";
         beschriftungen[7][0] = "Neustart";
         naechsterAbschnitt[7][0] = 0;
         beschriftungen[7][1] = "Neustart";
@@ -102,7 +102,7 @@ public class Textadventure extends Application {
         naechsterAbschnitt[8][1] = 0;
 
         // 9: Ende
-        abschnitte[9] = "Nach fünf Minuten brichst du durch die Hecke auf das Gelände deines Wohnheims. Dann mal ran an Statistik 1 - Und mögest du alle Hoffnung verlieren.";
+        abschnitte[9] = "Du kriechst unter dem Wrack hervon. Das Dröhnen der heranrollenden Panzer wird lauter. Es sind keine feindlichen Kräfte. Es ist die zweite Division! Du bist gerettet!";
         beschriftungen[9][0] = "Nochmal von vorne.";
         naechsterAbschnitt[9][0] = 0;
         beschriftungen[9][1] = "Nochmal von vorne.";
